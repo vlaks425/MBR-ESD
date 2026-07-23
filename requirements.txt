@@ -1,0 +1,16 @@
+# Core SoftF1 / reranking / span-evaluation (softf1.py, rerank.py, evaluate.py)
+# use only the Python standard library -- nothing to install.
+#
+# The two heavier dependencies are intentionally NOT pinned here: we no longer
+# have access to the original experiment machine, so please install them
+# following their own repositories.
+#
+# 1) Generation (generate.py): vLLM (pulls in torch / transformers), plus:
+#      pydantic
+#      tqdm
+#    Install vLLM per https://docs.vllm.ai / https://github.com/vllm-project/vllm
+#
+# 2) System/segment-level meta-evaluation (evaluate_meta.py):
+#      mt-metrics-eval  +  numpy  +  scipy
+#    Install and download the WMT data per
+#    https://github.com/google-research/mt-metrics-eval

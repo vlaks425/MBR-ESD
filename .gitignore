@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Pipeline outputs
+outputs/
+examples/toy_out.*
+examples/toy_eval.json
+
+# Downloaded WMT data (see data/README.md)
+data/mt-metrics-eval-v2/

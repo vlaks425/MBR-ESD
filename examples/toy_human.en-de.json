@@ -1,0 +1,84 @@
+[
+  {
+    "system": "SystemA",
+    "source": "The cat sat on the mat.",
+    "target": "Die Katze saß auf dem Mond.",
+    "error_span": [
+      {
+        "severity": "major",
+        "category": "Accuracy/Mistranslation",
+        "error_span": "Mond",
+        "error_span_start": 23,
+        "error_span_end": 27
+      }
+    ]
+  },
+  {
+    "system": "SystemA",
+    "source": "She sells seashells.",
+    "target": "Sie verkauft Muscheln.",
+    "error_span": []
+  },
+  {
+    "system": "SystemA",
+    "source": "It was a dark night.",
+    "target": "Es war eine dunkle nacht .",
+    "error_span": [
+      {
+        "severity": "minor",
+        "category": "Fluency/Spelling",
+        "error_span": "nacht",
+        "error_span_start": 18,
+        "error_span_end": 23
+      },
+      {
+        "severity": "minor",
+        "category": "Fluency/Punctuation",
+        "error_span": " .",
+        "error_span_start": 23,
+        "error_span_end": 25
+      }
+    ]
+  },
+  {
+    "system": "SystemB",
+    "source": "The cat sat on the mat.",
+    "target": "Die Katze saß auf dem Mond.",
+    "error_span": [
+      {
+        "severity": "major",
+        "category": "Accuracy/Mistranslation",
+        "error_span": "Mond",
+        "error_span_start": 23,
+        "error_span_end": 27
+      }
+    ]
+  },
+  {
+    "system": "SystemB",
+    "source": "She sells seashells.",
+    "target": "Sie verkauft Muscheln.",
+    "error_span": []
+  },
+  {
+    "system": "SystemB",
+    "source": "It was a dark night.",
+    "target": "Es war eine dunkle nacht .",
+    "error_span": [
+      {
+        "severity": "minor",
+        "category": "Fluency/Spelling",
+        "error_span": "nacht",
+        "error_span_start": 18,
+        "error_span_end": 23
+      },
+      {
+        "severity": "minor",
+        "category": "Fluency/Punctuation",
+        "error_span": " .",
+        "error_span_start": 23,
+        "error_span_end": 25
+      }
+    ]
+  }
+]

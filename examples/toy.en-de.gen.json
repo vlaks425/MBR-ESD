@@ -1,0 +1,126 @@
+{
+  "SystemA": [
+    [
+      [
+        "{\"errors\": [{\"error_span\": \"Mond\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}]}",
+        -2.0,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"Mond\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}, {\"error_span\": \"saß\", \"category\": \"Style\", \"sub_category\": \"Awkward\", \"severity\": \"minor\"}]}",
+        -3.1,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ],
+      [
+        "{\"errors\": []}",
+        -5.0,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ]
+    ],
+    [
+      [
+        "{\"errors\": []}",
+        -1.0,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ],
+      [
+        "{\"errors\": []}",
+        -1.5,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"Muscheln\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"minor\"}]}",
+        -4.2,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ]
+    ],
+    [
+      [
+        "{\"errors\": [{\"error_span\": \"nacht\", \"category\": \"Fluency\", \"sub_category\": \"Spelling\", \"severity\": \"minor\"}]}",
+        -2.2,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"nacht\", \"category\": \"Fluency\", \"sub_category\": \"Spelling\", \"severity\": \"minor\"}, {\"error_span\": \" .\", \"category\": \"Fluency\", \"sub_category\": \"Punctuation\", \"severity\": \"minor\"}]}",
+        -2.9,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"dunkle nacht\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}]}",
+        -6.0,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ]
+    ]
+  ],
+  "SystemB": [
+    [
+      [
+        "{\"errors\": [{\"error_span\": \"auf dem Mond\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}]}",
+        -2.5,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"Mond\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}]}",
+        -2.6,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"Katze\", \"category\": \"Accuracy\", \"sub_category\": \"Mistranslation\", \"severity\": \"major\"}]}",
+        -7.0,
+        "Die Katze saß auf dem Mond.",
+        "The cat sat on the mat."
+      ]
+    ],
+    [
+      [
+        "{\"errors\": []}",
+        -0.8,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ],
+      [
+        "{\"errors\": []}",
+        -0.9,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"Sie\", \"category\": \"Accuracy\", \"sub_category\": \"Addition\", \"severity\": \"minor\"}]}",
+        -5.5,
+        "Sie verkauft Muscheln.",
+        "She sells seashells."
+      ]
+    ],
+    [
+      [
+        "{\"errors\": [{\"error_span\": \"nacht\", \"category\": \"Fluency\", \"sub_category\": \"Spelling\", \"severity\": \"minor\"}]}",
+        -1.9,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ],
+      [
+        "{\"errors\": [{\"error_span\": \"nacht\", \"category\": \"Fluency\", \"sub_category\": \"Spelling\", \"severity\": \"minor\"}]}",
+        -2.0,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ],
+      [
+        "{\"errors\": []}",
+        -3.0,
+        "Es war eine dunkle nacht .",
+        "It was a dark night."
+      ]
+    ]
+  ]
+}
