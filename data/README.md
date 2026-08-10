@@ -24,8 +24,6 @@ Predictions are matched to a human segment by `system` and `source + target`.
 These annotations are derived from the public WMT24 MQM data; please also cite
 the WMT24 Metrics Shared Task if you use them.
 
-> ESA (rather than MQM) span annotations were only available for `en-es` in our
-> setup, so the pipeline here targets the MQM annotations for all three pairs.
 
 ## WMT source / system outputs / references (download separately)
 
